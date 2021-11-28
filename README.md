@@ -1,9 +1,10 @@
 # streamlit_exe
 
 environment
-python = 3.7.9
-streamlit = 0.61.0
-pyinstaller = 4.1
+
+- python = 3.7.9
+- streamlit = 0.61.0
+- pyinstaller = 4.1
 
 main.py
 ```
