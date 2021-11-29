@@ -19,6 +19,7 @@ a = Analysis(['run_main.py'],
                      "./streamlit/static"
                  )
              ],
+<<<<<<< HEAD
              hiddenimports=[
                 'pandas',
                 'openpyxl',
@@ -36,6 +37,9 @@ a = Analysis(['run_main.py'],
                 'PIL',
                 'numpy'
              ],
+=======
+             hiddenimports=['pandas','openpyxl'],
+>>>>>>> refs/remotes/origin/master
              hookspath=['./hooks'],
              runtime_hooks=[],
              excludes=[],
