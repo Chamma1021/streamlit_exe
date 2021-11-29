@@ -62,7 +62,7 @@ a = Analysis(['run_main.py'],
                      "./streamlit/static"
                  )
             ],
-            hiddenimports=['matplotlib'],
+            hiddenimports=['pandas'],
             ...,
             noarchive=False)
 pyz = PYZ(...)
